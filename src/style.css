@@ -12,7 +12,14 @@
 }
 
 body {
-    max-width: 1320px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #E5E5E5;
+}
+
+header {
+    position: absolute;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -45,9 +52,16 @@ nav div img {
     color: #000;
 }
 
+#search {
+    height: 30px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
 main {
     display: flex;
     justify-content: space-around;
+    gap: 288px;
     align-items: center;
 }
 
@@ -79,13 +93,13 @@ main {
     text-transform: uppercase;
     color: #FFF;
 }
-
+    
 #product-photos {
-    margin-top: 70px;
+    background-color: #9C9696;
+    width: 100vw;
 }
 
 footer {
-    background-color: #E5E5E5;
     display: flex;
     justify-content: space-between;
     align-items: center;
