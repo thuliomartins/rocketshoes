@@ -54,14 +54,13 @@ nav div img {
 
 #search {
     height: 30px;
-    border-radius: 4px;
     padding: 10px;
 }
 
 main {
     display: flex;
     justify-content: space-around;
-    gap: 288px;
+    gap: 255px;
     align-items: center;
 }
 
